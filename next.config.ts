@@ -2,9 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  eslint: {
-    ignoreDuringBuilds: true, // desactiva ESLint durante el build
-  },
   images: {
     domains: ["i.postimg.cc", "i.pravatar.cc", "encrypted-tbn0.gstatic.com"],
   },
